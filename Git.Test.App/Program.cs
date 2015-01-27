@@ -8,11 +8,11 @@ namespace Git.Test.App
 {
     class Program
     {
-        private static string test;
+        private static string test = string.Empty;
 
         static void Main(string[] args)
         {
-
+            truc machin = new truc();
         }
 
         public void Method()
@@ -24,6 +24,7 @@ namespace Git.Test.App
         {
             public static string innerVar = Program.test;
 
+            public string accessPrivateMember { get { return Program.test; } }
         }
     }
 
@@ -33,6 +34,8 @@ namespace Git.Test.App
         {
             string v = Program.inner.innerVar;
 
+            Program.inner inTest = new Program.inner();
+            string res = inTest.accessPrivateMember;
         }
 
     }
