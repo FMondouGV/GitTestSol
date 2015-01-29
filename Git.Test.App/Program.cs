@@ -23,8 +23,7 @@ namespace Git.Test.App
         public class inner
         {
             public static string innerVar = Program.test;
-
-            public string accessPrivateMember { get { return Program.test; } }
+                        public string accessPrivateMember { get { return Program.test; } }
         }
     }
 
