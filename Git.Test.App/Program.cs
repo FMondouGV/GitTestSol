@@ -32,7 +32,7 @@ namespace Git.Test.App
         public truc()
         {
             string v = Program.inner.innerVar;
-
+//another dummy comment
             Program.inner inTest = new Program.inner();
             string res = inTest.accessPrivateMember;
         }
