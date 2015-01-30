@@ -13,6 +13,7 @@ namespace Git.Test.App
         static void Main(string[] args)
         {
             truc machin = new truc();
+            // added dummy comment
         }
 
         public void Method()
@@ -22,6 +23,7 @@ namespace Git.Test.App
 
         public class inner
         {
+            // added dummy comment
             public static string innerVar = Program.test;
                         public string accessPrivateMember { get { return Program.test; } }
         }
