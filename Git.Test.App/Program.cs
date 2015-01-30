@@ -31,6 +31,7 @@ namespace Git.Test.App
     {
         public truc()
         {
+            // local comment
             string v = Program.inner.innerVar;
 
             Program.inner inTest = new Program.inner();
