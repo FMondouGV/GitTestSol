@@ -13,13 +13,14 @@ namespace Git.Test.App
         static void Main(string[] args)
         {
             truc machin = new truc();
+            // local comment added on feat-add-comment
         }
 
         public void Method()
         {
             string v = inner.innerVar;
         }
-
+        // local comment added on feat-add-comment
         public class inner
         {
             public static string innerVar = Program.test;
